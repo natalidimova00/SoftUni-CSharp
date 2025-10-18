@@ -1,0 +1,34 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5rem;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    padding-left: 1.5rem;
+    border: 5px solid rgb(0,0,0,0.4);
+    font-style: italic;
+    margin: 0 2em;
+    margin-bottom: 1.5rem;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote .author {
+    text-align: right;
+}
