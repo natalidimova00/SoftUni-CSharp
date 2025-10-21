@@ -1,0 +1,32 @@
+section {
+    border: 2px solid black;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 1em;
+    background: #fff;
+}
+
+.relative .item:nth-child(2) {
+    background: green;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: 6;
+}
+
+.absolute {
+    position: relative;
+}
+
+.absolute .item:nth-child(2) {
+    background: green;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+}
